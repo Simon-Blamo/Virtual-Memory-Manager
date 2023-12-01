@@ -1,5 +1,5 @@
 # Virtual Memory Manager
-This project involved designing a Virtual Memory Manager that translates logical addresses into corresponding physical addresses for a virtual address space of size 2^16^ = 65,536 bytes. The program reads logical addresses from a file, uses a Translation Lookaside Buffer (TLB) and a page table to perform address translation, and outputs the byte value stored at the translated physical address. The project emphasizes understanding the steps involved in translating logical to physical addresses, including resolving page faults using demand paging, managing a TLB, and implementing a page-replacement algorithm.
+This project involved designing a Virtual Memory Manager that translates logical addresses into corresponding physical addresses for a virtual address space of size 2<sup>16</sup> = 65,536 bytes. The program reads logical addresses from a file, uses a Translation Lookaside Buffer (TLB) and a page table to perform address translation, and outputs the byte value stored at the translated physical address. The project emphasizes understanding the steps involved in translating logical to physical addresses, including resolving page faults using demand paging, managing a TLB, and implementing a page-replacement algorithm.
 
 ## Project Specifics
 **Logical Address Structure:** Logical addresses are 32-bit integers, but only the rightmost 16 bits are relevant. These 16 bits are divided into an 8-bit page number and an 8-bit page offset.
@@ -7,9 +7,9 @@ This project involved designing a Virtual Memory Manager that translates logical
 **System Parameters:** 
 
 - 28 entries in the page table
-- Page size of 2^8^ bytes (256 bytes)
+- Page size of 2<sup>8</sup> bytes (256 bytes)
 - 16 entries in the TLB
-- Frame size of 2^8^ bytes (256 bytes)
+- Frame size of 2<sup>8</sup> bytes (256 bytes)
 - 256 frames
 - Physical memory size of 65,536 bytes (256 frames × 256-byte frame size)
 
