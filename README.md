@@ -6,7 +6,7 @@ This project involved designing a Virtual Memory Manager that translates logical
 
 **System Parameters:** 
 
-- 28 entries in the page table
+- 2<sup>8</sup> entries in the page table
 - Page size of 2<sup>8</sup> bytes (256 bytes)
 - 16 entries in the TLB
 - Frame size of 2<sup>8</sup> bytes (256 bytes)
