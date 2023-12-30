@@ -32,4 +32,4 @@ This project involved designing a Virtual Memory Manager that translates logical
      `./main__pr addresses.txt`
 
 ## Disclaimer
-This project is completed as part of a learning experience to understand virtual memory management.
+This project was completed as part of a learning experience to understand virtual memory management.
